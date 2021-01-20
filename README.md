@@ -5,10 +5,7 @@
 - Duration: `1 day`
 - Deployment strategy :
 	- Github page
-- Team challenge : `yes (max 4)`
-	- visualization: 1
-	- data analysis: 2
-	- project management : 1
+
 
 ## Learning Objectives 
 
@@ -38,51 +35,3 @@
 >"That's it, we're moving, I can't deal with this anti-chipotle fascism."
 
 Find chipotle **epicentres** to live your ideal chipotle lifestyle by clustering the [chipotle](chipotle_locations.csv) dataset.
-
-### Must-have features
-
-- A visualisation of the USA with chipotle locations
-- Visualization of the different clusters
-- Intrinsic analysis comparison of the clusters of at least 2 methods with varying arguments (using euclidian distance as criteria)
-- A chosen centroid to live. Make your argument of why the chosen centroid is superior to others. Examples of arguments are:
-    - highest density
-    - greatest uninterrupted link of chipotle locations with smallest link-to-link distance
-    - ...
-- a Github page where results are visualized
-
-
-### Nice-to-have features
-
-- Colour coded cluster visualisation
-- Clear graph legends
-
-## Deliverables
-1. Publish your source code on the GitHub repository.
-2. Make a clear github page explaining your results and methods
-3. A chosen adress for the couple to live
-
-### Steps
-1. Create the repository
-2. Install geopandas
-3. Plot the [US map](https://jcutrer.com/python/learn-geopandas-plotting-usmaps)
-4. Visualize your data on this map
-5. Plot a [dendogram](https://scikit-learn.org/stable/auto_examples/cluster/plot_agglomerative_dendrogram.html) of your data to help you decide the appropropriate clustering resolution
-6. Compare and analyse different [clustering methods](https://scikit-learn.org/stable/modules/clustering.html) using intrinsic analysis to decide on a chosen method.
-7. Choose a centroid/adress to live
-8. Publish your results to a Github page with an explanation of your method.
-
-## Evaluation criterias
-| Criteria       | Indicator                                                                             | Yes/No |
-|----------------|---------------------------------------------------------------------------------------|--------|
-| 1. Is complete | The student has realized all must-have features.                                      |        |
-|                | There is a published GitHub page available showing the visualized results                                           |        | A US location has been selected an arguments for choosing it has been given
-|                | ...                               					                                 |        |
-|                | ...                                                                                   |        |
-| 3. Is Correct  | All participants have contributed to the git repository										                                         	 |        |
-|                | All data is visualised clearly and interpretably								                                                     |        | The method and progress of the project is detailed in the git repository
-
-
-## A final note of encouragement
-
-
-![You've got this!](https://media.giphy.com/media/gJuZSbDxv0zLTMdafV/giphy.gif)
