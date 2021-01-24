@@ -21,7 +21,7 @@
 >
 >"That's it, we're moving, I can't deal with this anti-chipotle fascism."
 
-Find chipotle **epicentres** to live your ideal chipotle lifestyle by clustering the [chipotle](chipotle_locations.csv) dataset.
+Find chipotle **epicentres** to live your ideal chipotle lifestyle by clustering the [chipotle](https://github.com/MDropsy/Chipotle/blob/master/Datas/chipotle_stores.csv) dataset.
 
 ## The map 
 
