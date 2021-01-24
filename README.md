@@ -1,18 +1,5 @@
 # Chipotle clustering challenge
 
-- Repository: `clustering`
-- Type of Challenge: `Learning`
-- Duration: `1 day`
-- Deployment strategy :
-	- Github page
-
-
-## Learning Objectives 
-
-- visualization: to be able to use geopandas, matplotlib (and seaborn) to visualize clustered data onto a map
-- data analysis: to be able to determine appropriate clustering methods and variables to cluster 
-- data analysis: to evaluate the chosen clustering method in comparison to other methods 
-- project managment: to be able to allot the right amount of time for the tasks and present the results onto a readable github page
 
 ## The Mission
 
@@ -35,3 +22,27 @@
 >"That's it, we're moving, I can't deal with this anti-chipotle fascism."
 
 Find chipotle **epicentres** to live your ideal chipotle lifestyle by clustering the [chipotle](chipotle_locations.csv) dataset.
+
+## The map 
+
+Map plot using folium and the chipotle location dataset , the position of each Chipotle by state : 
+![Chipotle_state](Chipotle_state.png)
+
+## Clustering algorithms
+
+#### KMeans
+
+![KMeans_chipotle](KMeans_chipotle.png)
+
+#### DBSCAN
+
+![DBSCAN_chipotle](DBSCAN_chipotle.png)
+
+#### Mean-Shift
+
+![Mean-Shift_chipotle](Mean-Shift_chipotle.png)
+
+## Dendogram
+Dendogram plot to help choosing in wich cluster to live if you want to test the most Chipotle without moving far away.
+
+![dendogram_chipotle](dendogram_chipotle.png)
